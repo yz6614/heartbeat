@@ -1,5 +1,7 @@
 package com.miemie.server;
 
+import com.miemie.utils.ThreadPoolUtil;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.ObjectInputStream;
@@ -7,10 +9,16 @@ import java.io.ObjectOutputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.ExecutorService;
 
 public class Server {
 
-
+    private int port;
+    private volatile boolean running = false;
+    private long receiveTimeDelay = 3000;
+    private ConcurrentHashMap<Class, ObjectAction> actionMapping = new ConcurrentHashMap<>();
+    private Thread connWatchDog;
+    private static ExecutorService executorService;
     /**
      * 要处理客户端发来的对象，并返回一个对象，可实现该接口。
      */
@@ -21,7 +29,7 @@ public class Server {
     public static final class DefaultObjectAction implements ObjectAction {
         @Override
         public Object doAction(Object rev, Server server) {
-            System.out.println(String.format("\n\n 处理并返回：[%s]", rev.toString()));
+            System.out.println(String.format(" 处理并返回：[%s]", rev.toString()));
             return rev;
         }
     }
@@ -32,11 +40,6 @@ public class Server {
         server.start();
     }
 
-    private int port;
-    private volatile boolean running = false;
-    private long receiveTimeDelay = 3000;
-    private ConcurrentHashMap<Class, ObjectAction> actionMapping = new ConcurrentHashMap<>();
-    private Thread connWatchDog;
 
     private Server(int port) {
         this.port = port;
@@ -46,6 +49,7 @@ public class Server {
         if (running) {
             return;
         }
+        executorService = ThreadPoolUtil.getInstance().getThreadPoolManager();
         running = true;
         connWatchDog = new Thread(new ConnWatchDog());
         connWatchDog.start();
@@ -72,7 +76,9 @@ public class Server {
                 ServerSocket ss = new ServerSocket(port, 5);
                 while (running) {
                     Socket s = ss.accept();
-                    new Thread(new SocketAction(s)).start();
+
+                    executorService.execute((new SocketAction(s)));
+//                    new Thread(new SocketAction(s)).start();
                 }
             } catch (IOException e) {
                 e.printStackTrace();
@@ -134,7 +140,7 @@ public class Server {
                     e.printStackTrace();
                 }
             }
-            System.out.println(String.format("关闭：[%s]", s.getRemoteSocketAddress().toString())  );
+            System.out.println(String.format("关闭：[%s]", s.getRemoteSocketAddress().toString()));
         }
 
     }

@@ -8,6 +8,7 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.net.Socket;
 import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.CountDownLatch;
 
 public class Client {
     /**
@@ -28,22 +29,26 @@ public class Client {
     public static void main(String[] args) throws IOException {
         String serverIp = "127.0.0.1";
         int port = 65432;
-        Client client1 = new Client(serverIp, port);
-        client1.start();
-        Client client2 = new Client(serverIp, port);
-        client2.start();
+        Client client = new Client(serverIp, port);
+        client.start();
     }
 
     private String serverIp;
     private int port;
     private Socket socket;
-    /**连接状态*/
+    /**
+     * 连接状态
+     */
     private boolean running = false;
 
-    /**最后一次发送数据的时间*/
+    /**
+     * 最后一次发送数据的时间
+     */
     private long lastSendTime;
 
-    /**用于保存接收消息对象类型及该类型消息处理的对象*/
+    /**
+     * 用于保存接收消息对象类型及该类型消息处理的对象
+     */
     private ConcurrentHashMap<Class, ObjectAction> actionMapping = new ConcurrentHashMap<>();
 
     public Client(String serverIp, int port) {
@@ -59,10 +64,19 @@ public class Client {
         System.out.println("本地端口：" + socket.getLocalPort());
         lastSendTime = System.currentTimeMillis();
         running = true;
-        /**保持长连接的线程，每隔2秒项服务器发一个一个保持连接的心跳消息*/
-        new Thread(new KeepAliveWatchDog()).start();
-         /**接受消息的线程，处理消息*/
-        new Thread(new ReceiveWatchDog()).start();
+        CountDownLatch countDownLatch = new CountDownLatch(2);
+        /*保持长连接的线程，每隔2秒项服务器发一个一个保持连接的心跳消息*/
+        Thread heartBeatThread = new Thread(new KeepAliveWatchDog());
+        heartBeatThread.start();
+
+        /*接受消息的线程，处理消息*/
+        Thread clientThread = new Thread(new ReceiveWatchDog());
+        clientThread.start();
+        try {
+            countDownLatch.await();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 
     private void stop() {
@@ -89,7 +103,7 @@ public class Client {
     }
 
     class KeepAliveWatchDog implements Runnable {
-        long checkDelay = 10;
+        long checkDelay = 50;
         long keepAliveDelay = 2000;
 
         @Override
