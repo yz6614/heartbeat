@@ -46,12 +46,12 @@ public class Client {
     /**用于保存接收消息对象类型及该类型消息处理的对象*/
     private ConcurrentHashMap<Class, ObjectAction> actionMapping = new ConcurrentHashMap<>();
 
-    private Client(String serverIp, int port) {
+    public Client(String serverIp, int port) {
         this.serverIp = serverIp;
         this.port = port;
     }
 
-    private void start() throws IOException {
+    public void start() throws IOException {
         if (running) {
             return;
         }
