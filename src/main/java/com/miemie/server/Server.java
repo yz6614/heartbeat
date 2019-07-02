@@ -19,6 +19,7 @@ public class Server {
     private ConcurrentHashMap<Class, ObjectAction> actionMapping = new ConcurrentHashMap<>();
     private Thread connWatchDog;
     private static ExecutorService executorService;
+
     /**
      * 要处理客户端发来的对象，并返回一个对象，可实现该接口。
      */
@@ -76,9 +77,7 @@ public class Server {
                 ServerSocket ss = new ServerSocket(port, 5);
                 while (running) {
                     Socket s = ss.accept();
-
                     executorService.execute((new SocketAction(s)));
-//                    new Thread(new SocketAction(s)).start();
                 }
             } catch (IOException e) {
                 e.printStackTrace();
