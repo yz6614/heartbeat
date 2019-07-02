@@ -134,6 +134,10 @@ public class Server {
             }
             if (s != null) {
                 try {
+                    /**
+                     * socket 相关的所有句柄和资源都应有socket.close()进行关闭，
+                     * 否则单独IO流关闭会导致该socket不能read或write
+                     */
                     s.close();
                 } catch (IOException e) {
                     e.printStackTrace();
