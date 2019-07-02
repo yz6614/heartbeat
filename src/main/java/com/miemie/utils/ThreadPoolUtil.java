@@ -37,12 +37,12 @@ public class ThreadPoolUtil {
     }
 
     private ThreadPoolUtil() {
-        executorService = new ThreadPoolExecutor(5, 20, 10L, TimeUnit.SECONDS
+        executorService = new ThreadPoolExecutor(10, 20, 10L, TimeUnit.SECONDS
                 , new LinkedBlockingQueue<>()
                 , new DefaultThreadFactory("heart-beat:"));
     }
 
-    public static ThreadPoolUtil getInstance(){
+    public static ThreadPoolUtil getInstance() {
         if (null == INSTANCE) {
             synchronized (ThreadPoolUtil.class) {
                 if (null == INSTANCE) {
