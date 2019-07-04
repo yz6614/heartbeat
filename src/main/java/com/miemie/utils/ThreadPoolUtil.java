@@ -36,8 +36,10 @@ public class ThreadPoolUtil {
         }
     }
 
+    //Runtime.getRuntime().availableProcessors()
     private ThreadPoolUtil() {
-        executorService = new ThreadPoolExecutor(10, 20, 10L, TimeUnit.SECONDS
+        executorService = new ThreadPoolExecutor(Runtime.getRuntime().availableProcessors() / 2 + 1
+                , Runtime.getRuntime().availableProcessors(), 10L, TimeUnit.SECONDS
                 , new LinkedBlockingQueue<>()
                 , new DefaultThreadFactory("heart-beat:"));
     }
