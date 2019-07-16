@@ -1,0 +1,886 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="922284e3-5ced-4725-9e46-8d9167bab2ac" name="Default Changelist" comment="添加单元测试目录">
+      <change afterPath="$PROJECT_DIR$/../Jupiter" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Netty-study" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NettyHeartbeatDemo-master/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NettyHeartbeatDemo-master/.idea/copyright/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NettyHeartbeatDemo-master/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NettyHeartbeatDemo-master/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NettyHeartbeatDemo-master/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NettyHeartbeatDemo-master/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NettyHeartbeatDemo-master/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NettyHeartbeatDemo-master/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NettyHeartbeatDemo-master/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NettyHeartbeatDemo-master/NettyHeartbeat.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NettyHeartbeatDemo-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NettyHeartbeatDemo-master/lib/netty-all-4.0.39.Final-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NettyHeartbeatDemo-master/lib/netty-all-4.0.39.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NettyHeartbeatDemo-master/lib/protobuf-java-2.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NettyHeartbeatDemo-master/out/production/NettyHeartbeat/META-INF/NettyHeartbeat.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NettyHeartbeatDemo-master/out/production/NettyHeartbeat/client/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NettyHeartbeatDemo-master/out/production/NettyHeartbeat/client/ClientHandler$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NettyHeartbeatDemo-master/out/production/NettyHeartbeat/client/ClientHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NettyHeartbeatDemo-master/out/production/NettyHeartbeat/client/ClientHeartbeatHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NettyHeartbeatDemo-master/out/production/NettyHeartbeat/common/PacketProto$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NettyHeartbeatDemo-master/out/production/NettyHeartbeat/common/PacketProto$Packet$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NettyHeartbeatDemo-master/out/production/NettyHeartbeat/common/PacketProto$Packet$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NettyHeartbeatDemo-master/out/production/NettyHeartbeat/common/PacketProto$Packet$PacketType$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NettyHeartbeatDemo-master/out/production/NettyHeartbeat/common/PacketProto$Packet$PacketType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NettyHeartbeatDemo-master/out/production/NettyHeartbeat/common/PacketProto$Packet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NettyHeartbeatDemo-master/out/production/NettyHeartbeat/common/PacketProto$PacketOrBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NettyHeartbeatDemo-master/out/production/NettyHeartbeat/common/PacketProto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NettyHeartbeatDemo-master/out/production/NettyHeartbeat/proto/Packet.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NettyHeartbeatDemo-master/out/production/NettyHeartbeat/server/EnumSingleTone$Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NettyHeartbeatDemo-master/out/production/NettyHeartbeat/server/EnumSingleTone.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NettyHeartbeatDemo-master/out/production/NettyHeartbeat/server/EnumTest$Color.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NettyHeartbeatDemo-master/out/production/NettyHeartbeat/server/EnumTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NettyHeartbeatDemo-master/out/production/NettyHeartbeat/server/Server$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NettyHeartbeatDemo-master/out/production/NettyHeartbeat/server/Server.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NettyHeartbeatDemo-master/out/production/NettyHeartbeat/server/ServerHeartbeatHandler$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NettyHeartbeatDemo-master/out/production/NettyHeartbeat/server/ServerHeartbeatHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NettyHeartbeatDemo-master/out/production/NettyHeartbeat/server/SingleTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NettyHeartbeatDemo-master/out/production/NettyHeartbeat/server/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NettyHeartbeatDemo-master/src/client/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NettyHeartbeatDemo-master/src/client/ClientHeartbeatHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NettyHeartbeatDemo-master/src/common/PacketProto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NettyHeartbeatDemo-master/src/proto/Packet.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NettyHeartbeatDemo-master/src/server/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NettyHeartbeatDemo-master/src/server/ServerHeartbeatHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NettyHeartbeatDemo/.idea/NettyHeartbeatDemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NettyHeartbeatDemo/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NettyHeartbeatDemo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NettyHeartbeatDemo/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NettyHeartbeatDemo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NettyRpc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-2/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-2/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-2/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-2/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-2/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-2/lib-clink/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-2/lib-clink/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-2/lib-clink/src/main/java/net/qiujuer/library/clink/Clink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-2/lib-clink/src/main/java/net/qiujuer/library/clink/utils/ByteUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-2/lib-clink/src/main/java/net/qiujuer/library/clink/utils/CloseUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-2/sample-client/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-2/sample-client/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-2/sample-client/src/main/java/net/qiujuer/lesson/sample/client/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-2/sample-client/src/main/java/net/qiujuer/lesson/sample/client/TCPClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-2/sample-client/src/main/java/net/qiujuer/lesson/sample/client/UDPSearcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-2/sample-client/src/main/java/net/qiujuer/lesson/sample/client/bean/ServerInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-2/sample-foo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-2/sample-foo/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-2/sample-foo/src/main/java/net/qiujuer/lesson/sample/foo/Foo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-2/sample-foo/src/main/java/net/qiujuer/lesson/sample/foo/constants/TCPConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-2/sample-foo/src/main/java/net/qiujuer/lesson/sample/foo/constants/UDPConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-2/sample-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-2/sample-server/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-2/sample-server/src/main/java/net/qiujuer/lesson/sample/server/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-2/sample-server/src/main/java/net/qiujuer/lesson/sample/server/TCPServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-2/sample-server/src/main/java/net/qiujuer/lesson/sample/server/UDPProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-2/sample-server/src/main/java/net/qiujuer/lesson/sample/server/handle/ClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-2/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-3/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-3/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-3/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-3/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-3/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-3/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-3/lib-clink/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-3/lib-clink/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-3/lib-clink/src/main/java/net/qiujuer/library/clink/Clink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-3/lib-clink/src/main/java/net/qiujuer/library/clink/utils/ByteUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-3/lib-clink/src/main/java/net/qiujuer/library/clink/utils/CloseUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-3/sample-client/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-3/sample-client/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-3/sample-client/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-3/sample-client/src/main/java/net/qiujuer/lesson/sample/client/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-3/sample-client/src/main/java/net/qiujuer/lesson/sample/client/TCPClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-3/sample-client/src/main/java/net/qiujuer/lesson/sample/client/UDPSearcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-3/sample-client/src/main/java/net/qiujuer/lesson/sample/client/bean/ServerInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-3/sample-foo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-3/sample-foo/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-3/sample-foo/src/main/java/net/qiujuer/lesson/sample/foo/Foo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-3/sample-foo/src/main/java/net/qiujuer/lesson/sample/foo/constants/TCPConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-3/sample-foo/src/main/java/net/qiujuer/lesson/sample/foo/constants/UDPConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-3/sample-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-3/sample-server/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-3/sample-server/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-3/sample-server/src/main/java/net/qiujuer/lesson/sample/server/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-3/sample-server/src/main/java/net/qiujuer/lesson/sample/server/TCPServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-3/sample-server/src/main/java/net/qiujuer/lesson/sample/server/UDPProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-3/sample-server/src/main/java/net/qiujuer/lesson/sample/server/handle/ClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-3/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-4_5/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-4_5/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-4_5/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-4_5/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-4_5/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-4_5/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-4_5/lib-clink/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-4_5/lib-clink/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-4_5/lib-clink/src/main/java/net/qiujuer/library/clink/Clink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-4_5/lib-clink/src/main/java/net/qiujuer/library/clink/utils/ByteUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-4_5/lib-clink/src/main/java/net/qiujuer/library/clink/utils/CloseUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-4_5/sample-client/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-4_5/sample-client/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-4_5/sample-client/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-4_5/sample-client/src/main/java/net/qiujuer/lesson/sample/client/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-4_5/sample-client/src/main/java/net/qiujuer/lesson/sample/client/ClientTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-4_5/sample-client/src/main/java/net/qiujuer/lesson/sample/client/TCPClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-4_5/sample-client/src/main/java/net/qiujuer/lesson/sample/client/UDPSearcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-4_5/sample-client/src/main/java/net/qiujuer/lesson/sample/client/bean/ServerInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-4_5/sample-foo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-4_5/sample-foo/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-4_5/sample-foo/src/main/java/net/qiujuer/lesson/sample/foo/Foo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-4_5/sample-foo/src/main/java/net/qiujuer/lesson/sample/foo/constants/TCPConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-4_5/sample-foo/src/main/java/net/qiujuer/lesson/sample/foo/constants/UDPConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-4_5/sample-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-4_5/sample-server/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-4_5/sample-server/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-4_5/sample-server/src/main/java/net/qiujuer/lesson/sample/server/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-4_5/sample-server/src/main/java/net/qiujuer/lesson/sample/server/TCPServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-4_5/sample-server/src/main/java/net/qiujuer/lesson/sample/server/UDPProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-4_5/sample-server/src/main/java/net/qiujuer/lesson/sample/server/handle/ClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-4_5/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-Base/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-Base/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-Base/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-Base/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-Base/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-Base/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-Base/lib-clink/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-Base/lib-clink/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-Base/lib-clink/src/main/java/net/qiujuer/library/clink/Clink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-Base/lib-clink/src/main/java/net/qiujuer/library/clink/utils/ByteUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-Base/lib-clink/src/main/java/net/qiujuer/library/clink/utils/CloseUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-Base/sample-client/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-Base/sample-client/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-Base/sample-client/src/main/java/net/qiujuer/lesson/sample/client/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-Base/sample-client/src/main/java/net/qiujuer/lesson/sample/client/TCPClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-Base/sample-client/src/main/java/net/qiujuer/lesson/sample/client/UDPSearcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-Base/sample-client/src/main/java/net/qiujuer/lesson/sample/client/bean/ServerInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-Base/sample-foo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-Base/sample-foo/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-Base/sample-foo/src/main/java/net/qiujuer/lesson/sample/foo/Foo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-Base/sample-foo/src/main/java/net/qiujuer/lesson/sample/foo/constants/TCPConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-Base/sample-foo/src/main/java/net/qiujuer/lesson/sample/foo/constants/UDPConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-Base/sample-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-Base/sample-server/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-Base/sample-server/src/main/java/net/qiujuer/lesson/sample/server/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-Base/sample-server/src/main/java/net/qiujuer/lesson/sample/server/TCPServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-Base/sample-server/src/main/java/net/qiujuer/lesson/sample/server/UDPProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-Base/sample-server/src/main/java/net/qiujuer/lesson/sample/server/handle/ClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L6-Base/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-4_5_6/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-4_5_6/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-4_5_6/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-4_5_6/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-4_5_6/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-4_5_6/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-4_5_6/lib-clink/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-4_5_6/lib-clink/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-4_5_6/lib-clink/src/main/java/net/qiujuer/library/clink/Clink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-4_5_6/lib-clink/src/main/java/net/qiujuer/library/clink/utils/ByteUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-4_5_6/lib-clink/src/main/java/net/qiujuer/library/clink/utils/CloseUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-4_5_6/sample-client/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-4_5_6/sample-client/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-4_5_6/sample-client/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-4_5_6/sample-client/src/main/java/net/qiujuer/lesson/sample/client/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-4_5_6/sample-client/src/main/java/net/qiujuer/lesson/sample/client/ClientTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-4_5_6/sample-client/src/main/java/net/qiujuer/lesson/sample/client/TCPClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-4_5_6/sample-client/src/main/java/net/qiujuer/lesson/sample/client/UDPSearcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-4_5_6/sample-client/src/main/java/net/qiujuer/lesson/sample/client/bean/ServerInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-4_5_6/sample-foo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-4_5_6/sample-foo/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-4_5_6/sample-foo/src/main/java/net/qiujuer/lesson/sample/foo/Foo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-4_5_6/sample-foo/src/main/java/net/qiujuer/lesson/sample/foo/constants/TCPConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-4_5_6/sample-foo/src/main/java/net/qiujuer/lesson/sample/foo/constants/UDPConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-4_5_6/sample-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-4_5_6/sample-server/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-4_5_6/sample-server/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-4_5_6/sample-server/src/main/java/net/qiujuer/lesson/sample/server/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-4_5_6/sample-server/src/main/java/net/qiujuer/lesson/sample/server/TCPServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-4_5_6/sample-server/src/main/java/net/qiujuer/lesson/sample/server/UDPProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-4_5_6/sample-server/src/main/java/net/qiujuer/lesson/sample/server/handle/ClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-4_5_6/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-7_8_9_10/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-7_8_9_10/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-7_8_9_10/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-7_8_9_10/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-7_8_9_10/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-7_8_9_10/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-7_8_9_10/lib-clink/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-7_8_9_10/lib-clink/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-7_8_9_10/lib-clink/src/main/java/net/qiujuer/library/clink/Clink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-7_8_9_10/lib-clink/src/main/java/net/qiujuer/library/clink/core/Connector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-7_8_9_10/lib-clink/src/main/java/net/qiujuer/library/clink/core/IoArgs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-7_8_9_10/lib-clink/src/main/java/net/qiujuer/library/clink/core/IoContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-7_8_9_10/lib-clink/src/main/java/net/qiujuer/library/clink/core/IoProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-7_8_9_10/lib-clink/src/main/java/net/qiujuer/library/clink/core/Receiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-7_8_9_10/lib-clink/src/main/java/net/qiujuer/library/clink/core/Sender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-7_8_9_10/lib-clink/src/main/java/net/qiujuer/library/clink/impl/IoSelectorProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-7_8_9_10/lib-clink/src/main/java/net/qiujuer/library/clink/impl/SocketChannelAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-7_8_9_10/lib-clink/src/main/java/net/qiujuer/library/clink/utils/ByteUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-7_8_9_10/lib-clink/src/main/java/net/qiujuer/library/clink/utils/CloseUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-7_8_9_10/sample-client/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-7_8_9_10/sample-client/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-7_8_9_10/sample-client/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-7_8_9_10/sample-client/src/main/java/net/qiujuer/lesson/sample/client/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-7_8_9_10/sample-client/src/main/java/net/qiujuer/lesson/sample/client/ClientTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-7_8_9_10/sample-client/src/main/java/net/qiujuer/lesson/sample/client/TCPClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-7_8_9_10/sample-client/src/main/java/net/qiujuer/lesson/sample/client/UDPSearcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-7_8_9_10/sample-client/src/main/java/net/qiujuer/lesson/sample/client/bean/ServerInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-7_8_9_10/sample-foo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-7_8_9_10/sample-foo/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-7_8_9_10/sample-foo/src/main/java/net/qiujuer/lesson/sample/foo/Foo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-7_8_9_10/sample-foo/src/main/java/net/qiujuer/lesson/sample/foo/constants/TCPConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-7_8_9_10/sample-foo/src/main/java/net/qiujuer/lesson/sample/foo/constants/UDPConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-7_8_9_10/sample-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-7_8_9_10/sample-server/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-7_8_9_10/sample-server/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-7_8_9_10/sample-server/src/main/java/net/qiujuer/lesson/sample/server/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-7_8_9_10/sample-server/src/main/java/net/qiujuer/lesson/sample/server/TCPServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-7_8_9_10/sample-server/src/main/java/net/qiujuer/lesson/sample/server/UDPProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-7_8_9_10/sample-server/src/main/java/net/qiujuer/lesson/sample/server/handle/ClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L7-7_8_9_10/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q1/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q1/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q1/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q1/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q1/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q1/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q1/lib-clink/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q1/lib-clink/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q1/lib-clink/src/main/java/net/qiujuer/library/clink/Clink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q1/lib-clink/src/main/java/net/qiujuer/library/clink/core/Connector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q1/lib-clink/src/main/java/net/qiujuer/library/clink/core/IoArgs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q1/lib-clink/src/main/java/net/qiujuer/library/clink/core/IoContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q1/lib-clink/src/main/java/net/qiujuer/library/clink/core/IoProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q1/lib-clink/src/main/java/net/qiujuer/library/clink/core/Receiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q1/lib-clink/src/main/java/net/qiujuer/library/clink/core/Sender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q1/lib-clink/src/main/java/net/qiujuer/library/clink/impl/IoSelectorProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q1/lib-clink/src/main/java/net/qiujuer/library/clink/impl/SocketChannelAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q1/lib-clink/src/main/java/net/qiujuer/library/clink/utils/ByteUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q1/lib-clink/src/main/java/net/qiujuer/library/clink/utils/CloseUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q1/sample-client/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q1/sample-client/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q1/sample-client/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q1/sample-client/src/main/java/net/qiujuer/lesson/sample/client/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q1/sample-client/src/main/java/net/qiujuer/lesson/sample/client/ClientTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q1/sample-client/src/main/java/net/qiujuer/lesson/sample/client/TCPClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q1/sample-client/src/main/java/net/qiujuer/lesson/sample/client/UDPSearcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q1/sample-client/src/main/java/net/qiujuer/lesson/sample/client/bean/ServerInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q1/sample-foo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q1/sample-foo/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q1/sample-foo/src/main/java/net/qiujuer/lesson/sample/foo/Foo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q1/sample-foo/src/main/java/net/qiujuer/lesson/sample/foo/constants/TCPConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q1/sample-foo/src/main/java/net/qiujuer/lesson/sample/foo/constants/UDPConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q1/sample-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q1/sample-server/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q1/sample-server/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q1/sample-server/src/main/java/net/qiujuer/lesson/sample/server/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q1/sample-server/src/main/java/net/qiujuer/lesson/sample/server/TCPServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q1/sample-server/src/main/java/net/qiujuer/lesson/sample/server/UDPProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q1/sample-server/src/main/java/net/qiujuer/lesson/sample/server/handle/ClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q1/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q2/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q2/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q2/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q2/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q2/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q2/lib-clink/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q2/lib-clink/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q2/lib-clink/src/main/java/net/qiujuer/library/clink/Clink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q2/lib-clink/src/main/java/net/qiujuer/library/clink/core/Connector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q2/lib-clink/src/main/java/net/qiujuer/library/clink/core/IoArgs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q2/lib-clink/src/main/java/net/qiujuer/library/clink/core/IoContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q2/lib-clink/src/main/java/net/qiujuer/library/clink/core/IoProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q2/lib-clink/src/main/java/net/qiujuer/library/clink/core/Receiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q2/lib-clink/src/main/java/net/qiujuer/library/clink/core/Sender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q2/lib-clink/src/main/java/net/qiujuer/library/clink/impl/IoSelectorProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q2/lib-clink/src/main/java/net/qiujuer/library/clink/impl/SocketChannelAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q2/lib-clink/src/main/java/net/qiujuer/library/clink/utils/ByteUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q2/lib-clink/src/main/java/net/qiujuer/library/clink/utils/CloseUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q2/sample-client/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q2/sample-client/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q2/sample-client/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q2/sample-client/src/main/java/net/qiujuer/lesson/sample/client/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q2/sample-client/src/main/java/net/qiujuer/lesson/sample/client/ClientTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q2/sample-client/src/main/java/net/qiujuer/lesson/sample/client/TCPClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q2/sample-client/src/main/java/net/qiujuer/lesson/sample/client/UDPSearcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q2/sample-client/src/main/java/net/qiujuer/lesson/sample/client/bean/ServerInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q2/sample-foo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q2/sample-foo/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q2/sample-foo/src/main/java/net/qiujuer/lesson/sample/foo/Foo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q2/sample-foo/src/main/java/net/qiujuer/lesson/sample/foo/constants/TCPConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q2/sample-foo/src/main/java/net/qiujuer/lesson/sample/foo/constants/UDPConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q2/sample-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q2/sample-server/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q2/sample-server/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q2/sample-server/src/main/java/net/qiujuer/lesson/sample/server/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q2/sample-server/src/main/java/net/qiujuer/lesson/sample/server/TCPServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q2/sample-server/src/main/java/net/qiujuer/lesson/sample/server/UDPProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q2/sample-server/src/main/java/net/qiujuer/lesson/sample/server/handle/ClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q2/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q3/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q3/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q3/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q3/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q3/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q3/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q3/lib-clink/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q3/lib-clink/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q3/lib-clink/src/main/java/net/qiujuer/library/clink/Clink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q3/lib-clink/src/main/java/net/qiujuer/library/clink/core/Connector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q3/lib-clink/src/main/java/net/qiujuer/library/clink/core/IoArgs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q3/lib-clink/src/main/java/net/qiujuer/library/clink/core/IoContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q3/lib-clink/src/main/java/net/qiujuer/library/clink/core/IoProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q3/lib-clink/src/main/java/net/qiujuer/library/clink/core/Receiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q3/lib-clink/src/main/java/net/qiujuer/library/clink/core/Sender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q3/lib-clink/src/main/java/net/qiujuer/library/clink/impl/IoSelectorProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q3/lib-clink/src/main/java/net/qiujuer/library/clink/impl/SocketChannelAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q3/lib-clink/src/main/java/net/qiujuer/library/clink/utils/ByteUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q3/lib-clink/src/main/java/net/qiujuer/library/clink/utils/CloseUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q3/sample-client/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q3/sample-client/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q3/sample-client/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q3/sample-client/src/main/java/net/qiujuer/lesson/sample/client/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q3/sample-client/src/main/java/net/qiujuer/lesson/sample/client/ClientTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q3/sample-client/src/main/java/net/qiujuer/lesson/sample/client/TCPClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q3/sample-client/src/main/java/net/qiujuer/lesson/sample/client/UDPSearcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q3/sample-client/src/main/java/net/qiujuer/lesson/sample/client/bean/ServerInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q3/sample-foo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q3/sample-foo/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q3/sample-foo/src/main/java/net/qiujuer/lesson/sample/foo/Foo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q3/sample-foo/src/main/java/net/qiujuer/lesson/sample/foo/constants/TCPConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q3/sample-foo/src/main/java/net/qiujuer/lesson/sample/foo/constants/UDPConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q3/sample-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q3/sample-server/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q3/sample-server/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q3/sample-server/src/main/java/net/qiujuer/lesson/sample/server/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q3/sample-server/src/main/java/net/qiujuer/lesson/sample/server/TCPServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q3/sample-server/src/main/java/net/qiujuer/lesson/sample/server/UDPProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q3/sample-server/src/main/java/net/qiujuer/lesson/sample/server/handle/ClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom-L8-2-Q3/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/lib-clink/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/lib-clink/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/lib-clink/src/main/java/net/qiujuer/library/clink/Clink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/lib-clink/src/main/java/net/qiujuer/library/clink/box/AbsByteArrayReceivePacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/lib-clink/src/main/java/net/qiujuer/library/clink/box/BytesReceivePacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/lib-clink/src/main/java/net/qiujuer/library/clink/box/BytesSendPacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/lib-clink/src/main/java/net/qiujuer/library/clink/box/FileReceivePacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/lib-clink/src/main/java/net/qiujuer/library/clink/box/FileSendPacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/lib-clink/src/main/java/net/qiujuer/library/clink/box/StringReceivePacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/lib-clink/src/main/java/net/qiujuer/library/clink/box/StringSendPacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/lib-clink/src/main/java/net/qiujuer/library/clink/core/Connector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/lib-clink/src/main/java/net/qiujuer/library/clink/core/Frame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/lib-clink/src/main/java/net/qiujuer/library/clink/core/IoArgs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/lib-clink/src/main/java/net/qiujuer/library/clink/core/IoContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/lib-clink/src/main/java/net/qiujuer/library/clink/core/IoProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/lib-clink/src/main/java/net/qiujuer/library/clink/core/Packet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/lib-clink/src/main/java/net/qiujuer/library/clink/core/ReceiveDispatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/lib-clink/src/main/java/net/qiujuer/library/clink/core/ReceivePacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/lib-clink/src/main/java/net/qiujuer/library/clink/core/Receiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/lib-clink/src/main/java/net/qiujuer/library/clink/core/SendDispatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/lib-clink/src/main/java/net/qiujuer/library/clink/core/SendPacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/lib-clink/src/main/java/net/qiujuer/library/clink/core/Sender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/lib-clink/src/main/java/net/qiujuer/library/clink/core/ds/BytePriorityNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/lib-clink/src/main/java/net/qiujuer/library/clink/frames/AbsReceiveFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/lib-clink/src/main/java/net/qiujuer/library/clink/frames/AbsSendFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/lib-clink/src/main/java/net/qiujuer/library/clink/frames/AbsSendPacketFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/lib-clink/src/main/java/net/qiujuer/library/clink/frames/CancelReceiveFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/lib-clink/src/main/java/net/qiujuer/library/clink/frames/CancelSendFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/lib-clink/src/main/java/net/qiujuer/library/clink/frames/ReceiveEntityFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/lib-clink/src/main/java/net/qiujuer/library/clink/frames/ReceiveFrameFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/lib-clink/src/main/java/net/qiujuer/library/clink/frames/ReceiveHeaderFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/lib-clink/src/main/java/net/qiujuer/library/clink/frames/SendEntityFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/lib-clink/src/main/java/net/qiujuer/library/clink/frames/SendHeaderFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/lib-clink/src/main/java/net/qiujuer/library/clink/impl/IoSelectorProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/lib-clink/src/main/java/net/qiujuer/library/clink/impl/SocketChannelAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/lib-clink/src/main/java/net/qiujuer/library/clink/impl/async/AsyncPacketReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/lib-clink/src/main/java/net/qiujuer/library/clink/impl/async/AsyncPacketWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/lib-clink/src/main/java/net/qiujuer/library/clink/impl/async/AsyncReceiveDispatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/lib-clink/src/main/java/net/qiujuer/library/clink/impl/async/AsyncSendDispatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/lib-clink/src/main/java/net/qiujuer/library/clink/utils/ByteUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/lib-clink/src/main/java/net/qiujuer/library/clink/utils/CloseUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/sample-client/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/sample-client/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/sample-client/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/sample-client/src/main/java/net/qiujuer/lesson/sample/client/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/sample-client/src/main/java/net/qiujuer/lesson/sample/client/ClientTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/sample-client/src/main/java/net/qiujuer/lesson/sample/client/TCPClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/sample-client/src/main/java/net/qiujuer/lesson/sample/client/UDPSearcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/sample-client/src/main/java/net/qiujuer/lesson/sample/client/bean/ServerInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/sample-foo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/sample-foo/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/sample-foo/src/main/java/net/qiujuer/lesson/sample/foo/Foo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/sample-foo/src/main/java/net/qiujuer/lesson/sample/foo/constants/TCPConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/sample-foo/src/main/java/net/qiujuer/lesson/sample/foo/constants/UDPConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/sample-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/sample-server/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/sample-server/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/sample-server/src/main/java/net/qiujuer/lesson/sample/server/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/sample-server/src/main/java/net/qiujuer/lesson/sample/server/TCPServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/sample-server/src/main/java/net/qiujuer/lesson/sample/server/UDPProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/sample-server/src/main/java/net/qiujuer/lesson/sample/server/handle/ClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/ChatRoom/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L2/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L2/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L2/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L2/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L2/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L2/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L2/src/main/java/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L2/src/main/java/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L3-Android/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L3-Android/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L3-Android/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L3-Android/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L3-Android/app/src/androidTest/java/net/qiujuer/lesson/socketdemo/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L3-Android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L3-Android/app/src/main/java/net/qiujuer/lesson/socketdemo/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L3-Android/app/src/main/java/net/qiujuer/lesson/socketdemo/MessageCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L3-Android/app/src/main/java/net/qiujuer/lesson/socketdemo/UDPProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L3-Android/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L3-Android/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L3-Android/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L3-Android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L3-Android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L3-Android/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L3-Android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L3-Android/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L3-Android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L3-Android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L3-Android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L3-Android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L3-Android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L3-Android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L3-Android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L3-Android/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L3-Android/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L3-Android/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L3-Android/app/src/test/java/net/qiujuer/lesson/socketdemo/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L3-Android/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L3-Android/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L3-Android/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L3-Android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L3-Android/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L3-Android/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L3-Android/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L3/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L3/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L3/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L3/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L3/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L3/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L3/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L3/src/main/java/MessageCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L3/src/main/java/UDPProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L3/src/main/java/UDPSearcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L4/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L4/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L4/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L4/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L4/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L4/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L4/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L4/src/main/java/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L4/src/main/java/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L4/src/main/java/Tools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L5-TCP-Channel/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L5-TCP-Channel/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L5-TCP-Channel/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L5-TCP-Channel/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L5-TCP-Channel/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L5-TCP-Channel/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L5-TCP-Channel/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L5-TCP-Channel/src/main/java/client/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L5-TCP-Channel/src/main/java/client/TCPClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L5-TCP-Channel/src/main/java/client/UDPSearcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L5-TCP-Channel/src/main/java/client/bean/ServerInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L5-TCP-Channel/src/main/java/clink/net/qiujuer/clink/Clink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L5-TCP-Channel/src/main/java/clink/net/qiujuer/clink/utils/ByteUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L5-TCP-Channel/src/main/java/clink/net/qiujuer/clink/utils/CloseUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L5-TCP-Channel/src/main/java/constants/TCPConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L5-TCP-Channel/src/main/java/constants/UDPConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L5-TCP-Channel/src/main/java/server/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L5-TCP-Channel/src/main/java/server/TCPServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L5-TCP-Channel/src/main/java/server/UDPProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L5-TCP-Channel/src/main/java/server/handle/ClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L5-TCP/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L5-TCP/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L5-TCP/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L5-TCP/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L5-TCP/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L5-TCP/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L5-TCP/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L5-TCP/src/main/java/client/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L5-TCP/src/main/java/client/TCPClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L5-TCP/src/main/java/client/UDPSearcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L5-TCP/src/main/java/client/bean/ServerInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L5-TCP/src/main/java/clink/net/qiujuer/clink/Clink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L5-TCP/src/main/java/clink/net/qiujuer/clink/utils/ByteUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L5-TCP/src/main/java/constants/TCPConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L5-TCP/src/main/java/constants/UDPConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L5-TCP/src/main/java/server/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L5-TCP/src/main/java/server/TCPServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L5-TCP/src/main/java/server/UDPProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L5-UDP/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L5-UDP/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L5-UDP/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L5-UDP/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L5-UDP/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L5-UDP/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L5-UDP/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L5-UDP/src/main/java/client/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L5-UDP/src/main/java/client/ClientSearcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L5-UDP/src/main/java/client/bean/ServerInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L5-UDP/src/main/java/clink/net/qiujuer/clink/Clink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L5-UDP/src/main/java/clink/net/qiujuer/clink/utils/ByteUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L5-UDP/src/main/java/constants/TCPConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L5-UDP/src/main/java/constants/UDPConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L5-UDP/src/main/java/server/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-master/code/SocketDemo-L5-UDP/src/main/java/server/ServerProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../heartbeat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../netty-4-user-guide" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../netty-4-user-guide-demos" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rpc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/5-11 原理图 .txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/src/main/java/com/imooc/netty/ch10/FastThreadLocalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/src/main/java/com/imooc/netty/ch10/RecycleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/src/main/java/com/imooc/netty/ch11/Decorate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/src/main/java/com/imooc/netty/ch11/IterableTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/src/main/java/com/imooc/netty/ch11/ObserverTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/src/main/java/com/imooc/netty/ch11/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/src/main/java/com/imooc/netty/ch11/Strategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/src/main/java/com/imooc/netty/ch12/connection/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/src/main/java/com/imooc/netty/ch12/connection/ConnectionCountHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/src/main/java/com/imooc/netty/ch12/connection/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/src/main/java/com/imooc/netty/ch12/connection/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/src/main/java/com/imooc/netty/ch12/thread/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/src/main/java/com/imooc/netty/ch12/thread/ClientBusinessHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/src/main/java/com/imooc/netty/ch12/thread/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/src/main/java/com/imooc/netty/ch12/thread/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/src/main/java/com/imooc/netty/ch12/thread/ServerBusinessHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/src/main/java/com/imooc/netty/ch12/thread/ServerBusinessThreadPoolHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/src/main/java/com/imooc/netty/ch2/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/src/main/java/com/imooc/netty/ch2/ClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/src/main/java/com/imooc/netty/ch2/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/src/main/java/com/imooc/netty/ch2/ServerBoot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/src/main/java/com/imooc/netty/ch3/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/src/main/java/com/imooc/netty/ch3/ServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/src/main/java/com/imooc/netty/ch6/AuthHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/src/main/java/com/imooc/netty/ch6/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/src/main/java/com/imooc/netty/ch6/InBoundHandlerA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/src/main/java/com/imooc/netty/ch6/InBoundHandlerB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/src/main/java/com/imooc/netty/ch6/InBoundHandlerC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/src/main/java/com/imooc/netty/ch6/OutBoundHandlerA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/src/main/java/com/imooc/netty/ch6/OutBoundHandlerB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/src/main/java/com/imooc/netty/ch6/OutBoundHandlerC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/src/main/java/com/imooc/netty/ch6/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/src/main/java/com/imooc/netty/ch6/exceptionspread/ExceptionCaughtHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/src/main/java/com/imooc/netty/ch6/exceptionspread/InBoundHandlerA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/src/main/java/com/imooc/netty/ch6/exceptionspread/InBoundHandlerB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/src/main/java/com/imooc/netty/ch6/exceptionspread/InBoundHandlerC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/src/main/java/com/imooc/netty/ch6/exceptionspread/OutBoundHandlerA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/src/main/java/com/imooc/netty/ch6/exceptionspread/OutBoundHandlerB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/src/main/java/com/imooc/netty/ch6/exceptionspread/OutBoundHandlerC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/src/main/java/com/imooc/netty/ch6/exceptionspread/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/src/main/java/com/imooc/netty/ch9/BizHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/src/main/java/com/imooc/netty/ch9/Encoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/src/main/java/com/imooc/netty/ch9/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/src/main/java/com/imooc/netty/ch9/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch10/FastThreadLocalTest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch10/FastThreadLocalTest$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch10/FastThreadLocalTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch10/RecycleTest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch10/RecycleTest$User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch10/RecycleTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch11/Decorate$DiscountPlan.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch11/Decorate$KnockPlan.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch11/Decorate$NonePlan.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch11/Decorate$OnSalePlan.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch11/Decorate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch11/IterableTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch11/ObserverTest$Boy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch11/ObserverTest$Girl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch11/ObserverTest$Man.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch11/ObserverTest$Observer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch11/ObserverTest$Observerable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch11/ObserverTest$OldMan.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch11/ObserverTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch11/Singleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch11/Strategy$Cache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch11/Strategy$CacheMemoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch11/Strategy$CacheRedisImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch11/Strategy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch12/connection/Client$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch12/connection/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch12/connection/ConnectionCountHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch12/connection/Constant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch12/connection/Server.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch12/thread/Client$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch12/thread/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch12/thread/ClientBusinessHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch12/thread/Constant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch12/thread/Server$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch12/thread/Server.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch12/thread/ServerBusinessHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch12/thread/ServerBusinessThreadPoolHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch2/Client$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch2/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch2/ClientHandler$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch2/ClientHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch2/Server$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch2/Server.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch2/ServerBoot.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch3/Server$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch3/Server.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch3/ServerHandler$1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch3/ServerHandler$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch3/ServerHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch6/AuthHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch6/BusinessException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch6/InBoundHandlerA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch6/InBoundHandlerB.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch6/InBoundHandlerC.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch6/OutBoundHandlerA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch6/OutBoundHandlerB.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch6/OutBoundHandlerC.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch6/Server$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch6/Server.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch6/exceptionspread/ExceptionCaughtHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch6/exceptionspread/InBoundHandlerA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch6/exceptionspread/InBoundHandlerB.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch6/exceptionspread/InBoundHandlerC.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch6/exceptionspread/OutBoundHandlerA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch6/exceptionspread/OutBoundHandlerB.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch6/exceptionspread/OutBoundHandlerC.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch6/exceptionspread/Server$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch6/exceptionspread/Server.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch9/BizHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch9/Encoder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch9/Server$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch9/Server.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../t3spyw/target/classes/com/imooc/netty/ch9/User.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="21" column="46" lean-forward="true" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1696" />
+    <option name="height" value="1026" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="zkstudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zkstudy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zkstudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zkstudy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zkstudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zkstudy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zkstudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zkstudy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="922284e3-5ced-4725-9e46-8d9167bab2ac" name="Default Changelist" comment="" />
+      <created>1563239330148</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563239330148</updated>
+      <workItem from="1563239331896" duration="599000" />
+      <workItem from="1563263887398" duration="1049000" />
+    </task>
+    <task id="LOCAL-00001" summary="创建项目">
+      <created>1563264027348</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1563264027348</updated>
+    </task>
+    <task id="LOCAL-00002" summary="添加单元测试目录">
+      <created>1563264220786</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1563264220786</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1648000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25305623" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="SVN Repositories" weight="0.32922733" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49938875" visible="true" weight="0.32922733" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50061125" side_tool="true" visible="true" weight="0.32922733" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="创建项目" />
+    <MESSAGE value="添加单元测试目录" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加单元测试目录" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="21" column="46" lean-forward="true" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
